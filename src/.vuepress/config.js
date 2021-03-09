@@ -2,7 +2,7 @@ const { description } = require('../../package')
 
 module.exports = {
   dest: 'docs',
-  base: '/reforms-docs/',
+  base: '/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
