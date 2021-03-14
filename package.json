@@ -10,11 +10,13 @@
   },
   "repository": "https://github.com/empla/reforms",
   "scripts": {
+    "clean": "rm -rf docs/*",
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "npm run clean && vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "vuepress": "^1.5.3"
   }
 }
