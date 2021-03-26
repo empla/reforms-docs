@@ -44,8 +44,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Documentation',
-        link: '/documentation/'
+        text: 'Inputs & Outputs',
+        link: '/iotypes/'
       },
       {
         text: 'Try it online',
